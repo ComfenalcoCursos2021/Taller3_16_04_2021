@@ -9,7 +9,10 @@ do{
         case 1:
             continue parar;
         case 2:
+            numero = numero.sort((a,b)=>a-b);
+            numero.reverse();
             console.log(`Cantidada de numeros ingresados ${numero.length}`);
+            console.log(`Numero Mayor ${numero[0]}`);
             console.log(numero);
             break parar;
         default:

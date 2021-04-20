@@ -17,4 +17,4 @@ function comparacion(num1, num2){
     }else{
         return `El numero 2: ${num2} es mayor que el numero 1: ${num1}`;
     }
-}
+} 
